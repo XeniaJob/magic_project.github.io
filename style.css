@@ -1,0 +1,497 @@
+.container {
+  margin: 0 9.3em;
+  /* отступ слева для логотипа */
+}
+
+.header {
+  background-image: url(coffee-2179028_1280.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* фото на всю страницу */
+}
+
+.header_line {
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_1 {
+color: rgb(252, 249, 217);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+font-size: 1.5em;
+font-weight: 700;
+margin-right: 1.5em;
+transition: color 0.3s linear ;
+/* <p>иконки меню размер и текст</p> */
+}
+.nav_1:hover {
+color: rgb(245, 237, 4);
+/* смена цвета при нажатии */
+}
+
+.phone {
+  position: relative;
+  border-left: 0.1em solid rgb(252, 249, 217);
+  padding-left: 0.6em;
+  height: 3.5em;
+/* линия возле телефона */
+}
+
+.number {
+  color: rgb(252, 249, 217);
+  font-size: 1.2em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  /* номер телефона */
+}
+
+.phone_num {
+  display: flex;
+  align-items: center;
+}
+
+.phone_text {
+  color: rgb(252, 249, 217);
+  font-size: 1em ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.button {
+  background-color: rgba(255, 230, 5, 0.36);
+  color: rgb(252, 249, 217);
+  padding: 1em 1.2em;
+  font-weight: 800;
+  font-size: 1.3em;
+  transition: color 0.3s linear ; 
+  /* для плавной смены цвета кнопки */
+}
+.button:hover {
+  color: rgb(38, 28, 10);
+}
+
+.menu {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.menu_slide {
+  position: absolute;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.disp {
+  display: none;
+}
+
+
+.header_title {
+  color: rgb(252, 249, 217);
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2em;
+  text-shadow: 0em 0 0.1875em #ffffff;
+}
+
+.card_holder {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0.625em 0.625em 2.5em 1.25em #0000001A;
+  width:22em;
+  margin-right: 1.9em;
+  background-color: rgb(255, 255, 255);
+  margin-top: -2.5em;
+  padding: 0 0.650em;
+}
+.card_image {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.8em;
+}
+.card_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25em;
+  font-size: 1.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-shadow: 0em 0 0.1875em #2d2d2d;
+}
+.card_text {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 1.25em;
+}
+
+
+
+.history {
+  margin-top: 10.375em;
+  padding-bottom: 200px;
+}
+
+.history_title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.320em;
+  font-style: italic;
+  font-weight: 500;
+  width: 444px; 
+  text-align: center;
+  margin-bottom: 21px ;
+}
+
+.history_title span {
+  color: rgb(255, 163, 5);
+  text-shadow: 0em 0 0.1875em #ff000077;
+}
+
+.history_text {
+  font-size:1.2em ;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  width: 444px; 
+  text-align: center;
+}
+
+.history_number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+  margin-top: 2.3em;
+  margin-left: 30px;
+}
+
+.history_item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 163, 5);
+  
+
+}
+
+.history_item span {
+  display: block;
+  color: black;
+}
+
+.history_img {
+  position: relative;
+}
+
+
+.history_holder {
+display: flex;
+}
+
+.imgages_1 {
+  position: absolute;
+  z-index: 999;
+  top: 40px ;
+  left: 190px;
+}
+
+.imgages_2 {
+  position: absolute;
+  z-index: 500;
+  top: -30px ;
+  left: 310px;
+}
+
+.imgages_3 {
+  position: absolute;
+  z-index: 300;
+  top: 50px; ;
+  left: 520px; ;
+}
+
+.imgages_4 {
+  position: absolute;
+  z-index: 400;
+  top: 170px ;
+  left: 440px; ;
+}
+
+.imgages_5 {
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  left: 260px;
+}
+
+.black_block {
+  background-image: url(coffee-2179028_1280.jpg);
+  padding: 20px 0 ;
+}
+
+.left_title {
+  font-size: 3em;
+  color: rgb(252, 249, 217);
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+
+}
+
+.left_text {
+  font-size: 2em;
+  color: rgb(252, 249, 217);
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
+.black_button {
+  background-color: rgba(255, 230, 5, 0.36);
+  color: rgb(252, 249, 217);
+  padding: 1em 1.2em;
+  font-weight: 800;
+  font-size: 1.3em;
+  transition: color 0.3s linear ;
+}
+
+.black_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black_button :hover 
+
+
+.bakery_holder {
+  padding: 50px 0;
+}
+
+.bakery_title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.320em;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.bakery_title span {
+  color: rgb(255, 163, 5);
+  text-shadow: 0em 0 0.1875em #ff000077;
+}
+
+.bakery_text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bakery_image {
+  margin-top: 30px;
+  margin: 60px;
+}
+
+.tort {
+  background-color: rgb(253, 253, 253);
+}
+
+.tort_title {
+  color: rgb(44, 24, 1);
+  font-size: 3.320em;
+  font-style: italic;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-bottom: 120px;
+  text-shadow: 0em 0 0.1875em rgba(255, 191, 0, 0.841);
+  
+}
+
+.tort_items {
+  display: flex;
+  justify-content: center;
+}
+
+.tort_item {
+  background-color: #ffffff;
+  text-align: center;
+  width: 30%;
+  padding-top: 60px;
+  box-shadow: 0.625em 0.625em 2.5em 1.25em #ff910062;
+  margin-right: 30px;
+}
+
+.tort_text {
+  font-size: 2em;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tort_subtext {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+
+
+.tor_but {
+  background-color: rgba(255, 191, 0, 0.841);
+  color: rgb(252, 249, 217);
+  padding: 1em 1.8em;
+  font-weight: 700;
+  font-size: 1em;
+  transition: color 0.3s linear ;
+  padding-bottom: 20px;
+}
+
+.tor_but:hover{
+  color: #402804;
+}
+
+.footer {
+  padding-top: 80px;
+  background-color: #402804;
+  text-align: center;
+}
+
+.footer_title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.320em;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20px;
+  color:rgb(252, 249, 217);
+}
+
+.footer_text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 20px;
+  color:rgb(252, 249, 217);
+}
+
+
+
+
+@media (max-width:1100px) {
+  .history_img {
+  display: none ;
+  }
+
+  .history_title,
+  .history_text,
+  .history_number {
+    width: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header_title{
+    font-size: 3em;
+  }
+
+  .menu{
+    display: block;
+  }
+
+  .nav,
+  .phone,
+  .buth {
+    display: none;
+  }
+
+  .header_line {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tort_items {
+    display: block;
+  }
+  .tort_item {
+    margin: 20px auto;
+    width: 400px;
+  }
+
+  .bak_im,
+  .bakery_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .bak_im {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .black_holder {
+    display: block;
+  }
+
+  .left_title,
+  .left_text,
+  .rith_button {
+    text-align: center;
+  }
+  
+  .rith_button {
+    margin-top: 30px;
+  }
+
+  .card_holder {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .container {
+    margin: auto 20px;
+  }
+
+  .history_title,
+  .history_number,
+  .history_text {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
